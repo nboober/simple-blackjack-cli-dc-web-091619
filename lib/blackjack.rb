@@ -46,8 +46,11 @@ def initial_round
   
 end
 
-def hit?
+def hit?(total)
   # code hit? here
+  prompt_user
+  get_user_input
+  
 end
 
 def invalid_command
