@@ -37,10 +37,11 @@ def initial_round
   card1 = deal_card
   card2 = deal_card
   
-  display_card_total(total)
-  
-  total = card2 + card1
+    total = card2 + card1
 
+  
+  # display_card_total(total)
+  
   
 end
 
