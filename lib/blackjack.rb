@@ -39,6 +39,8 @@ def initial_round
   
   total = card2 + card1
   
+  display_card_total(total)
+  
 end
 
 def hit?
